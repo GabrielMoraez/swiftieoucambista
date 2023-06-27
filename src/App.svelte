@@ -107,6 +107,9 @@
     }
   }
 
+import tsPNG from './assets/taylor.png'
+import crPNG from './assets/celso.png'
+
 </script>
 
 <main>
@@ -114,8 +117,8 @@
     <ResultCard result={swiftieResult}/>
   {/if}
   <div class="photos-container">
-    <img src="./src/assets/celso.png" />
-    <img src='./src/assets/taylor.png' />
+    <img src={crPNG} alt="Celso Russomano"/>
+    <img src={tsPNG} alt="Taylor Swift"/>
   </div>
   <h1>Você é CAMBISTA ou SWIFTIE?</h1>
   <section class="content-container">
@@ -151,7 +154,7 @@
     transition: ease-in-out 0.2s;
   }
   img {
-    width: 200px;
+    height: 300px;
     object-fit: cover;
   }
 </style>
