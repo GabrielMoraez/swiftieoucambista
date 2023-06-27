@@ -54,12 +54,12 @@
               </span>
             </div>
             <div>
-              <img class="taylor-face" src={TaylorFace} />
+              <img alt="cara da taylor" class="taylor-face" src={TaylorFace} />
             </div>
           </div>
           <div class="bottom-container">
             <div>
-              <img class="barcode" src={BarCode} />
+              <img alt="código de barras" class="barcode" src={BarCode} />
             </div>
           </div>
         </div>
